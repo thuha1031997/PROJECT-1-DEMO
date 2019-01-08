@@ -1,0 +1,33 @@
+/* contact-form */
+.round-icon {
+    height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    border: 1px solid #6db5f1;
+    background: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    color: #0041ff;
+    display: inline-block;
+}
+.rounded {
+    border-radius: .25rem!important;
+}
+.box-shadow {
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+}
+button.btn.btn-primary {
+    border-radius: 50px;
+    width: 6rem;
+    height: 3rem;
+}
+.form-contact input[type="text"] {
+    height: 2.5rem;
+    width: 13rem;
+    border: 1px solid #d6dcdc;
+    border-radius: 3px;
+}
+
+/* head-banner */
