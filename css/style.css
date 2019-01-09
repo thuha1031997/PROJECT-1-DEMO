@@ -1,3 +1,7 @@
+.navbar-brand img {
+  width: 150px;
+  height: 60px;
+}
 #header .carousel .carousel-inner .slider-img {
   padding: 0px 15px 15px 15px;
 }
@@ -115,7 +119,7 @@ footer
   margin-right: 8px;
   padding: 2px 0;
   text-align: center;
-  width: 35px;
+  width: 35px;  
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -164,6 +168,9 @@ footer
 .footer-widget .fa-phone:before {
   
   color: #94989c;
+}
+.footer-top .address a{
+  color: #888;
 }
 @media only screen and (max-width:990px){
   .footer-widget h3{
@@ -420,7 +427,7 @@ ul.nav.nav-tabs {
   margin-top: 0.2rem;
   margin-left: 1rem;
 }
-.modal-dialog .modal-content .modal-body .aa-product-view-content .aa-prod-view-size a{
+.modal-dialog .modal-content .modal-body .product-view-content .prod-view-size a{
   color: #afb5bb;
   text-decoration: none;
   background-color: transparent;
@@ -431,13 +438,13 @@ ul.nav.nav-tabs {
  
  
 }
-.modal-dialog .modal-content .modal-body .aa-product-view-content .aa-prod-quantity p.aa-prod-category {
+.modal-dialog .modal-content .modal-body .product-view-content .prod-quantity p.prod-category {
   border-bottom: 1px solid #d5dcdc;
 }
-.modal-dialog .modal-content .modal-body .aa-product-view-content .aa-prod-view-size {
+.modal-dialog .modal-content .modal-body .product-view-content .prod-view-size {
   margin-bottom: 8px;
 }
- .modal-dialog .modal-content .modal-body .aa-product-view-content  .aa-prod-view-bottom a  {
+ .modal-dialog .modal-content .modal-body .product-view-content  .prod-view-bottom a  {
   color: #919999;
   text-decoration: none;
   background-color: transparent;
@@ -446,7 +453,7 @@ ul.nav.nav-tabs {
   font-size: 13px;
   font-size: smaller;
 }
-.modal-dialog .modal-content .modal-body .aa-product-view-content  .aa-prod-view-bottom a:hover {
+.modal-dialog .modal-content .modal-body .product-view-content  .prod-view-bottom a:hover {
   color: rgb(231, 45, 45);
   border: 1px solid rgb(231, 45, 45);
 
@@ -464,10 +471,19 @@ ul.nav.nav-tabs {
   border: 1px solid rgba(0,0,0,.2);
   border-radius: .3rem;
   outline: 0;
- 
-  
   margin-left: 0.5rem;
 }
+.simpleLens-lens-image img {
+  width: 200px;
+  height: 200px;
+}
+.simpleLens-thumbnail-wrapper img {
+  width: 50px;
+  height: 50px;
+}
 /* client logo slider */
-
+#trademark img{
+  width: 70px;
+  height: 60px;
+}
 

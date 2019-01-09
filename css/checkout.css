@@ -21,7 +21,7 @@ a:hover, a:focus {
     padding-left: 8px;
     margin-bottom: 8px;
 }
-button.aa-browse-btn {
+button. browse-btn {
     width: 121px;
     height: 36px;
     color: white;
@@ -44,7 +44,7 @@ select {
     margin-bottom: 8px;
     font-family: unset;
 }
-button.aa-browse-btn {
+button.browse-btn {
     width: 121px;
     height: 36px;
     color: white;
