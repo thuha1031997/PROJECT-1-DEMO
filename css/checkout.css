@@ -21,7 +21,7 @@ a:hover, a:focus {
     padding-left: 8px;
     margin-bottom: 8px;
 }
-button. browse-btn {
+button .browse-btn {
     width: 121px;
     height: 36px;
     color: white;
@@ -54,5 +54,3 @@ button.browse-btn {
     margin-bottom: 8px;
     font-family: cursive;
 }
-
-  
