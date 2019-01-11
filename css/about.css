@@ -1,0 +1,113 @@
+#about .product-grid .product-new-label {
+    color: #fff;
+    background-color: #ef5777;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    display: block;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.2rem;
+}
+
+#about .product-grid .product-discount-label {
+    color: #fff;
+    background-color: #6f6869;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    display: block;
+    position: absolute;
+    top: 0.2rem;
+    right: 1.2rem;
+}
+h2.product-title {
+    font-size: 15px;
+    font-family: cursive;
+    color: #d43685;
+    border-bottom: 1px solid;
+    /* padding-left: 2rem; */
+}
+
+@media only screen and (min-width:768px){
+    #about .new-product .row{
+        margin-top: 30px;
+    }
+    #about .new-product h2.product-title {
+        margin-bottom: -45px;
+    }  
+}
+#about .shop-list .product-buy-more .product-grid .product-info .media .media-img img {
+    width: 50px;
+    height: 50px;
+}
+#about .shop-list .product-buy-more .product-grid .product-info .media .media-body {
+    margin-left: 1rem;
+}
+#about .shop-list .product-buy-more .product-grid .product-info .media{
+    border: 1px solid #d5dcdc;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+@media only screen and (max-width:425px){
+    .new-product .product-grid  .product-img img {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/* .product-buy-more {
+    margin-top: 2rem;
+} */
+.fa-star:before {
+    content: "\f005";
+    font-size: 10px;
+    color: #ec0c3e;
+}
+.fa-star-o:before {
+    content: "\f006";
+    font-size: 10px;
+    color: #ec0c3e;
+}
+span.count {
+    color: #ecde15;
+}
+ul li {
+    list-style: none;
+}
+ul {
+    margin-left: -2.5rem;
+}
+h4.media-heading {
+    font-size: 16px;
+    margin-bottom: -0.2rem;
+}
+
+/* promotional products */
+#about .shop-list .Product-promotional .product-grid .product-info {
+    border: 1px solid #e4ecec;
+    margin-top: 0rem;
+    padding: 0.1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+#about .product-featured .product-grid .product-info {
+    border: 1px solid #e4ecec;
+    margin-top: -1rem;
+    padding: 0.1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.news-content span{
+    color: #c1bfbc;
+    font-size: 11px;
+}
+.news-content h3 {
+    font-size: 18px;
+    color: #1e7e34;
+}
+/* @media only screen and (max-width:768px and min-width:425px){
+    #about .shop-list .col-md-3 .product-title  {
+        font-size: 10px;
+    }
+} */
