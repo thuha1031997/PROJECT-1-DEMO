@@ -27,7 +27,7 @@
 #product-category ul {
     margin-top: 0;
     margin-bottom: 1rem;
-    padding: 0;
+    padding: 10px;
 }
 #product-category .sidebar-widget .title {
     border-bottom: 1px solid #bfbfbf;
