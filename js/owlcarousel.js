@@ -13,6 +13,7 @@ $(document).ready(function() {
    
    
   });
+  
   $(document).ready(function() {
  
     var owl = $("#owl-demo1");
@@ -26,6 +27,23 @@ $(document).ready(function() {
         autoplayHoverPause:true
     });
    
+   
+  });
+  $(document).ready(function() {
+ 
+    $('#owl-demo-banner').owlCarousel({
+        // animateOut: 'slideOutDown',
+        // animateIn: 'flipInX',
+        items:1,
+        margin:5,
+        stagePadding:5,
+        smartSpeed:300,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true
+    });
    
   });
  
