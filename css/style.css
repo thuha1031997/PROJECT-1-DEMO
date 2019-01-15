@@ -54,6 +54,10 @@ ABOUT
 ul {
   list-style-type: none;
   position: relative;
+  
+}
+ul.address{
+  padding-left: 0px;
 }
 ul.timeline:before {
   content: ' ';
